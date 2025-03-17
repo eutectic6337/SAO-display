@@ -587,7 +587,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -615,8 +615,22 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part #" "C15525"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7a0c91fd-356b-46be-9cec-05c1ff5cea65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/2a1a25a6-800c-46be-afed-a2453fa0eb4d")
+		(path "/f17b5ed6-4d0f-4834-9b72-3c1941e9d681")
 		(sheetname "/")
 		(sheetfile "SAO-display.kicad_sch")
 		(attr smd)
@@ -794,7 +808,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -822,8 +836,22 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part #" "C15525"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cbdf2aa1-0261-4cec-a346-f49ad15d0733")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/d2938565-4765-42ba-8e17-f02c63496f70")
+		(path "/66a66f1f-0f14-4759-af0b-ca6fb55c5e6c")
 		(sheetname "/")
 		(sheetfile "SAO-display.kicad_sch")
 		(attr smd)
@@ -1001,7 +1029,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -1029,8 +1057,22 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part #" "C15525"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1c5f0b08-e7f7-4aa5-95b4-6a12de0a3f87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/0371092c-c5c6-49eb-9299-a7ae9f8e4dda")
+		(path "/effab831-f2f1-4192-9d46-b13ecd0e1af8")
 		(sheetname "/")
 		(sheetfile "SAO-display.kicad_sch")
 		(attr smd)
@@ -1208,7 +1250,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -1236,8 +1278,22 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part #" "C15525"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cc83ae33-f462-4790-b44c-ae1a0bffa996")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/270a5368-3850-4b57-9c63-ba704a0bbc76")
+		(path "/261933fc-4405-4f4a-8eba-10bbbf2707bc")
 		(sheetname "/")
 		(sheetfile "SAO-display.kicad_sch")
 		(attr smd)
@@ -1414,7 +1470,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2006102223_Samsung-Electro-Mechanics-CL21A226MAYNNNE_C602037.pdf"
 			(at 0 0 210)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -1442,8 +1498,22 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part #" "C602037"
+			(at 0 0 30)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1a311e6c-bc78-4036-b5fa-64131cfdfe7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/62b643b6-064f-4a81-85dc-9de21dba3a11")
+		(path "/a0de2214-4817-413e-9229-d7fe87b87f07")
 		(sheetname "/")
 		(sheetfile "SAO-display.kicad_sch")
 		(attr smd)
@@ -2858,7 +2928,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2886,8 +2956,22 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part #" "C15525"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "47bf2e22-c82a-4951-8ecb-19234becede6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/d6862faf-433a-43b7-85d0-fd100175395c")
+		(path "/e0762bb1-e0bb-4f82-9eee-a02bfcb57831")
 		(sheetname "/")
 		(sheetfile "SAO-display.kicad_sch")
 		(attr smd)
@@ -3188,7 +3272,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3211,6 +3295,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part #" "C15525"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "36b52105-7934-4df5-ba5b-07867ea1d67a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -3395,7 +3493,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3423,8 +3521,22 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part #" "C15525"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f630cc1f-2066-4195-ab02-4af37f5180d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/a526430b-5285-412b-894b-ab59594dec83")
+		(path "/5ad3576e-3ce2-4bea-b192-25414c5f95e9")
 		(sheetname "/")
 		(sheetfile "SAO-display.kicad_sch")
 		(attr smd)
@@ -3601,7 +3713,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2006102223_Samsung-Electro-Mechanics-CL21A226MAYNNNE_C602037.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3629,8 +3741,22 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part #" "C602037"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7f126515-5296-47c1-a953-00eb1f11a682")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/e575c03a-6d3b-458a-ac88-85f00751045c")
+		(path "/e518d045-73ea-4471-b167-327d124a272b")
 		(sheetname "/")
 		(sheetfile "SAO-display.kicad_sch")
 		(attr smd)
@@ -3808,7 +3934,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf"
 			(at 0 0 315)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3836,8 +3962,22 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part #" "C15525"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4eb70fe6-78d0-43b8-b4ce-09acc711c0ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/1e0bd0fb-b324-4893-bfbd-751b7df061ca")
+		(path "/5e19c3e0-181e-42dc-aa84-999cc2a213e2")
 		(sheetname "/")
 		(sheetfile "SAO-display.kicad_sch")
 		(attr smd)
@@ -4147,7 +4287,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4175,8 +4315,22 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part #" "C15525"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8c7c7842-0e0f-4dd2-9478-3d25281f49ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/04192da9-7920-4ad8-88bb-0e01519fc6ff")
+		(path "/1d89e641-eed9-441a-bef6-a2cddafd0131")
 		(sheetname "/")
 		(sheetfile "SAO-display.kicad_sch")
 		(attr smd)
@@ -4613,7 +4767,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4641,8 +4795,22 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part #" "C15525"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a5228427-5e55-4831-a323-7087a68904e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/794bf999-f9e9-415e-8727-1bc282fcf30b")
+		(path "/05edcb82-d4c3-4335-97e7-7ecfdf35063b")
 		(sheetname "/")
 		(sheetfile "SAO-display.kicad_sch")
 		(attr smd)
@@ -4819,7 +4987,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2006102223_Samsung-Electro-Mechanics-CL21A226MAYNNNE_C602037.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4847,8 +5015,22 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part #" "C602037"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0f83afe7-59f2-47da-9597-9c4871c5bbc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/fc620e1b-a7fe-449d-b7eb-b530dc6b9ac4")
+		(path "/c0d7bde0-c2fe-4949-8e28-31d59d9bde8c")
 		(sheetname "/")
 		(sheetfile "SAO-display.kicad_sch")
 		(attr smd)
@@ -5025,7 +5207,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2006102223_Samsung-Electro-Mechanics-CL21A226MAYNNNE_C602037.pdf"
 			(at 0 0 150)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5053,8 +5235,22 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part #" "C602037"
+			(at 0 0 330)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "efc9a0e5-374a-4136-a088-095ab21d0860")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/d4e3eae2-1150-4ae7-b4de-49823a4ecbe0")
+		(path "/fb3cdef7-621a-4572-8765-23a32e204959")
 		(sheetname "/")
 		(sheetfile "SAO-display.kicad_sch")
 		(attr smd)
@@ -5231,7 +5427,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2006102223_Samsung-Electro-Mechanics-CL21A226MAYNNNE_C602037.pdf"
 			(at 0 0 30)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5259,8 +5455,22 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part #" "C602037"
+			(at 0 0 210)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d19d8b59-be8c-407c-a5eb-40a638581219")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/4214dfc2-6cbb-42a3-8de3-69dca11344ec")
+		(path "/195e3c64-43e9-4b6a-9b33-2de6c1462b53")
 		(sheetname "/")
 		(sheetfile "SAO-display.kicad_sch")
 		(attr smd)
@@ -5959,7 +6169,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf"
 			(at 0 0 315)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5987,8 +6197,22 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part #" "C15525"
+			(at 0 0 135)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "caa90ed1-b7ff-4f66-bb60-718921db0dfa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/5ca6e5bc-6c00-46f6-aa4a-ec8042c7e8c9")
+		(path "/abfec8a7-6016-4488-abd2-0d8104d845a0")
 		(sheetname "/")
 		(sheetfile "SAO-display.kicad_sch")
 		(attr smd)
@@ -6165,7 +6389,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121632_DOWO-BZT52C20_C7544551.pdf"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6188,6 +6412,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part #" "C7544551"
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a152c233-e1cf-4823-933f-e4175d7aab2e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -6454,7 +6692,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6482,8 +6720,22 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC Part #" "C15525"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2308904f-1c60-4cb2-a8ba-3aba076f9373")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/6a37835f-4ac7-4149-89da-0696d3f3538a")
+		(path "/d148bbdf-deb1-4226-978b-194f944142ee")
 		(sheetname "/")
 		(sheetfile "SAO-display.kicad_sch")
 		(attr smd)
@@ -6660,7 +6912,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2006102223_Samsung-Electro-Mechanics-CL21A226MAYNNNE_C602037.pdf"
 			(at 0 0 330)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6683,6 +6935,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part #" "C602037"
+			(at 0 0 150)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2f2b2252-4044-4848-9516-a2e786b96602")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
