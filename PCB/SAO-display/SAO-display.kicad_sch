@@ -727,7 +727,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "https://www.aliexpress.us/item/2251832874579437.html"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2398,6 +2398,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 92.71 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "069784cc-e361-46fd-b0bd-1dab86d5dc06")
+		(property "Reference" "J4"
+			(at 97.79 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 97.79 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 92.71 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "https://www.aliexpress.us/item/3256806339086558.html"
+			(at 92.71 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be899a67-bd23-4104-8174-de555c0f8e63")
+		)
+		(pin "2"
+			(uuid "6b1b6fb9-e985-471e-9b74-207787e4f045")
+		)
+		(instances
+			(project "SAO-display"
+				(path "/d69956fb-1ece-4d71-a86e-9c0e03d8e4b0"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 110.49 118.11 0)
 		(unit 1)
@@ -2495,7 +2564,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "22uF"
 			(at 127 101.5999 0)
 			(effects
 				(font
@@ -2504,7 +2573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 124.1552 104.14 0)
 			(effects
 				(font
@@ -2513,7 +2582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A226MQ8NRNC_C59461.pdf"
 			(at 123.19 100.33 0)
 			(effects
 				(font
@@ -2531,7 +2600,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C15525"
+		(property "LCSC Part #" "C59461"
 			(at 123.19 100.33 0)
 			(effects
 				(font
@@ -2757,7 +2826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "https://www.aliexpress.us/item/2251832874579437.html"
 			(at 129.54 69.85 0)
 			(effects
 				(font
@@ -2788,76 +2857,6 @@
 			(project ""
 				(path "/d69956fb-1ece-4d71-a86e-9c0e03d8e4b0"
 					(reference "CON1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 113.03 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "575a0f99-c336-4a75-ba2b-2576d6af536a")
-		(property "Reference" "J5"
-			(at 118.11 24.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 118.11 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 113.03 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 113.03 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bcfd5edd-b48f-4e34-8ad1-e372fc358594")
-		)
-		(pin "2"
-			(uuid "7681b286-c27f-494e-b23f-142b0df5e854")
-		)
-		(instances
-			(project "SAO-display"
-				(path "/d69956fb-1ece-4d71-a86e-9c0e03d8e4b0"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3145,7 +3144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "https://www.aliexpress.us/item/3256806339086558.html"
 			(at 31.75 25.4 0)
 			(effects
 				(font
@@ -3164,76 +3163,6 @@
 			(project "SAO-display"
 				(path "/d69956fb-1ece-4d71-a86e-9c0e03d8e4b0"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 92.71 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6bd6428e-48ac-4e6c-b22b-87a1fc6a3dee")
-		(property "Reference" "J4"
-			(at 97.79 24.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 97.79 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 92.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 92.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81af30dd-39da-4e22-a09e-a3edd5a85158")
-		)
-		(pin "2"
-			(uuid "267e17ae-1018-43c1-b2f9-c3f28329f847")
-		)
-		(instances
-			(project "SAO-display"
-				(path "/d69956fb-1ece-4d71-a86e-9c0e03d8e4b0"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3307,6 +3236,144 @@
 			(project ""
 				(path "/d69956fb-1ece-4d71-a86e-9c0e03d8e4b0"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 72.39 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73263ab2-45ab-4e89-8671-9af481c7a835")
+		(property "Reference" "J3"
+			(at 77.47 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 77.47 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 72.39 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "https://www.aliexpress.us/item/3256806339086558.html"
+			(at 72.39 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c50a7a5-60cf-43b4-922b-dda858358aff")
+		)
+		(pin "2"
+			(uuid "6630ae20-1056-4d95-adf3-a590ece188f3")
+		)
+		(instances
+			(project "SAO-display"
+				(path "/d69956fb-1ece-4d71-a86e-9c0e03d8e4b0"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 113.03 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86e8926d-93da-4dff-b99b-6c24b9aa8cfd")
+		(property "Reference" "J5"
+			(at 118.11 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 118.11 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 113.03 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "https://www.aliexpress.us/item/3256806339086558.html"
+			(at 113.03 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9df7a87e-0c04-4114-9616-8a2d6fadd371")
+		)
+		(pin "2"
+			(uuid "6d0f6515-93b8-4a49-9594-ea16fd63bf42")
+		)
+		(instances
+			(project "SAO-display"
+				(path "/d69956fb-1ece-4d71-a86e-9c0e03d8e4b0"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3392,76 +3459,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 52.07 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9401474d-0056-4e9e-bb75-b0516a21b0be")
-		(property "Reference" "J2"
-			(at 57.15 24.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 57.15 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 52.07 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 52.07 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ad776e2-c213-42bd-b679-1717bfc091b6")
-		)
-		(pin "2"
-			(uuid "544b399b-1cf9-4c5a-92b9-1f7821fce1c9")
-		)
-		(instances
-			(project "SAO-display"
-				(path "/d69956fb-1ece-4d71-a86e-9c0e03d8e4b0"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 72.39 118.11 0)
 		(unit 1)
@@ -3541,6 +3538,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 133.35 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a16544f8-0bf6-402f-a67e-7b4f17756289")
+		(property "Reference" "J6"
+			(at 138.43 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 138.43 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 133.35 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "https://www.aliexpress.us/item/3256806339086558.html"
+			(at 133.35 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41aa0217-985c-4842-909f-105da3f12788")
+		)
+		(pin "2"
+			(uuid "57ea09f3-e29b-4223-a399-78765b0eff9a")
+		)
+		(instances
+			(project "SAO-display"
+				(path "/d69956fb-1ece-4d71-a86e-9c0e03d8e4b0"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 59.69 100.33 0)
 		(unit 1)
@@ -3614,76 +3680,6 @@
 			(project "SAO-display"
 				(path "/d69956fb-1ece-4d71-a86e-9c0e03d8e4b0"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 133.35 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8e12902-1cfc-46e4-a213-5bd136e59334")
-		(property "Reference" "J6"
-			(at 138.43 24.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 138.43 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 133.35 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 133.35 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1f5a17c-24af-45da-894f-dcbba3ac266b")
-		)
-		(pin "2"
-			(uuid "648f5a64-291b-46b6-a640-f625179b75dd")
-		)
-		(instances
-			(project "SAO-display"
-				(path "/d69956fb-1ece-4d71-a86e-9c0e03d8e4b0"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3787,7 +3783,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "22uF"
 			(at 139.7 101.5999 0)
 			(effects
 				(font
@@ -3796,7 +3792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 136.8552 104.14 0)
 			(effects
 				(font
@@ -3805,7 +3801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21A226MQQNNNE_C5674.pdf"
 			(at 135.89 100.33 0)
 			(effects
 				(font
@@ -3823,7 +3819,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C15525"
+		(property "LCSC Part #" "C5674"
 			(at 135.89 100.33 0)
 			(effects
 				(font
@@ -3921,6 +3917,75 @@
 			(project ""
 				(path "/d69956fb-1ece-4d71-a86e-9c0e03d8e4b0"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 52.07 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d528bf4c-e7ff-48b2-87f5-308f778d4a2a")
+		(property "Reference" "J2"
+			(at 57.15 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 57.15 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 52.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "https://www.aliexpress.us/item/3256806339086558.html"
+			(at 52.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84ec89e5-047d-42e3-b5ab-fa24f8a249c4")
+		)
+		(pin "2"
+			(uuid "5ddc717f-4517-4d0a-a349-ab7283e9d0a2")
+		)
+		(instances
+			(project "SAO-display"
+				(path "/d69956fb-1ece-4d71-a86e-9c0e03d8e4b0"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4103,7 +4168,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "47uF"
 			(at 152.4 101.5999 0)
 			(effects
 				(font
@@ -4112,7 +4177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 149.5552 104.14 0)
 			(effects
 				(font
@@ -4121,7 +4186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2208231630_Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2405231412_HRE-CGA1206X5R476M6R3NT_C22399657.pdf"
 			(at 148.59 100.33 0)
 			(effects
 				(font
@@ -4139,7 +4204,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C15525"
+		(property "LCSC Part #" "C22399657"
 			(at 148.59 100.33 0)
 			(effects
 				(font
@@ -4390,76 +4455,6 @@
 			(project "SAO-display"
 				(path "/d69956fb-1ece-4d71-a86e-9c0e03d8e4b0"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 72.39 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fda75b26-9375-43db-bd41-bcd2f34c9dd6")
-		(property "Reference" "J3"
-			(at 77.47 24.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 77.47 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 72.39 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 72.39 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d7c5e34-75cc-4520-b18c-9d7ed1ba9992")
-		)
-		(pin "2"
-			(uuid "f2a31eba-ac96-4f98-a671-6db431b29688")
-		)
-		(instances
-			(project "SAO-display"
-				(path "/d69956fb-1ece-4d71-a86e-9c0e03d8e4b0"
-					(reference "J3")
 					(unit 1)
 				)
 			)
