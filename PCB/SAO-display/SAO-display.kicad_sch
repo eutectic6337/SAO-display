@@ -4089,7 +4089,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "another 22uF"
 			(at 63.5 119.3799 0)
 			(effects
 				(font
@@ -4098,7 +4098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 60.6552 121.92 0)
 			(effects
 				(font
@@ -4107,7 +4107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2006102223_Samsung-Electro-Mechanics-CL21A226MAYNNNE_C602037.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121645_Chinocera-HGC1206R5226M250NSPJ_C7432786.pdf"
 			(at 59.69 118.11 0)
 			(effects
 				(font
@@ -4125,7 +4125,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C602037"
+		(property "LCSC Part #" "C7432786"
 			(at 59.69 118.11 0)
 			(effects
 				(font
