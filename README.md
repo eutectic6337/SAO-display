@@ -2,7 +2,7 @@
 
 A modular system for displaying
 [Shitty Add-Ons](https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/)
-on a wall, with their lights a-blinin'.
+on a wall, with their lights a-blinkin'.
 
 Points:
 - hexagonal mocules, for arbitrary tiling
