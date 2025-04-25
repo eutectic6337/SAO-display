@@ -5291,7 +5291,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.7 1.7)
-			(drill 0.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -5302,7 +5302,7 @@
 		(pad "2" thru_hole oval
 			(at 0 -2.54)
 			(size 1.7 1.7)
-			(drill 0.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 9 "Vsup")
@@ -6688,7 +6688,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 300)
 			(size 1.7 1.7)
-			(drill 0.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 9 "Vsup")
@@ -6699,7 +6699,7 @@
 		(pad "2" thru_hole oval
 			(at 0 -2.54 300)
 			(size 1.7 1.7)
-			(drill 0.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -6949,7 +6949,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 240)
 			(size 1.7 1.7)
-			(drill 0.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -6960,7 +6960,7 @@
 		(pad "2" thru_hole oval
 			(at 0 -2.54 240)
 			(size 1.7 1.7)
-			(drill 0.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 9 "Vsup")
@@ -7904,7 +7904,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 60)
 			(size 1.7 1.7)
-			(drill 0.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 9 "Vsup")
@@ -7915,7 +7915,7 @@
 		(pad "2" thru_hole oval
 			(at 0 -2.54 60)
 			(size 1.7 1.7)
-			(drill 0.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -9414,7 +9414,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 120)
 			(size 1.7 1.7)
-			(drill 0.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
@@ -9425,7 +9425,7 @@
 		(pad "2" thru_hole oval
 			(at 0 -2.54 120)
 			(size 1.7 1.7)
-			(drill 0.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 9 "Vsup")
@@ -9675,7 +9675,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 180)
 			(size 1.7 1.7)
-			(drill 0.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 9 "Vsup")
@@ -9686,7 +9686,7 @@
 		(pad "2" thru_hole oval
 			(at 0 -2.54 180)
 			(size 1.7 1.7)
-			(drill 0.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
