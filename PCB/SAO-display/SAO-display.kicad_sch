@@ -604,6 +604,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_3_Open"
 			(pin_names
 				(offset 0)
@@ -1174,6 +1298,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Non-zener diode protects buck converter module from reverse-polarity supply.\nZener diode protects buck converter from over-voltage supply.\nResistor protects zener diode from reverse-polarity supply."
+		(exclude_from_sim no)
+		(at 13.97 50.8 0)
+		(size 83.82 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "22ef3848-093e-4eec-b89c-10ed9020d3df")
+	)
 	(junction
 		(at 135.89 39.37)
 		(diameter 0)
@@ -1343,12 +1487,6 @@
 		(uuid "7e32c902-2d2d-4b93-ae90-4c8b30567ccf")
 	)
 	(junction
-		(at 41.91 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83907716-4542-4e04-8d12-3cc956959320")
-	)
-	(junction
 		(at 46.99 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1359,6 +1497,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9429ce73-0020-4437-87f4-3e7785a1edc0")
+	)
+	(junction
+		(at 41.91 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94cfee5d-8bdc-4987-b925-278303d0dfc3")
 	)
 	(junction
 		(at 72.39 39.37)
@@ -1385,12 +1529,6 @@
 		(uuid "b777b64a-9179-42e9-808b-adfd15f2fcb6")
 	)
 	(junction
-		(at 41.91 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba767a04-baa1-4cb1-957c-2202f77fc6ed")
-	)
-	(junction
 		(at 34.29 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1413,6 +1551,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7058b32-fa07-42c6-a3dd-57c163c479fa")
+	)
+	(junction
+		(at 41.91 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9757d8b-1aed-48c0-9cf8-5f12f2e09939")
 	)
 	(junction
 		(at 146.05 73.66)
@@ -1485,6 +1629,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fee0b84c-85ae-41bd-8d35-9641f7c1c28f")
+	)
+	(wire
+		(pts
+			(xy 41.91 86.36) (xy 63.5 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "054d38de-e41d-4578-93d5-d635a4157e44")
 	)
 	(wire
 		(pts
@@ -1718,6 +1872,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 67.31) (xy 41.91 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "495c73c7-49bc-4f30-ac9d-b8ca0de86b02")
+	)
+	(wire
+		(pts
 			(xy 31.75 39.37) (xy 54.61 39.37)
 		)
 		(stroke
@@ -1785,16 +1949,6 @@
 			(type default)
 		)
 		(uuid "668c0215-ac2c-448e-83e7-f373c4492652")
-	)
-	(wire
-		(pts
-			(xy 41.91 67.31) (xy 41.91 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bdd2fc7-906a-41ad-a6be-03853bc21587")
 	)
 	(wire
 		(pts
@@ -1928,6 +2082,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 76.2) (xy 41.91 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98bdbb3e-62a3-4b49-a4fa-4e72b1a4ac3a")
+	)
+	(wire
+		(pts
 			(xy 59.69 121.92) (xy 72.39 121.92)
 		)
 		(stroke
@@ -1985,16 +2149,6 @@
 			(type default)
 		)
 		(uuid "af1ede1f-e708-43a1-9a51-40118870d79f")
-	)
-	(wire
-		(pts
-			(xy 34.29 86.36) (xy 41.91 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b104abc5-61a6-4ab2-b124-acb3b91d2cb4")
 	)
 	(wire
 		(pts
@@ -2108,16 +2262,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 82.55) (xy 41.91 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6ac29d3-b018-4129-bb14-b2e145d4dcf0")
-	)
-	(wire
-		(pts
 			(xy 46.99 121.92) (xy 59.69 121.92)
 		)
 		(stroke
@@ -2155,6 +2299,16 @@
 			(type default)
 		)
 		(uuid "ca729f37-c29c-46ea-a4df-849562f3a410")
+	)
+	(wire
+		(pts
+			(xy 41.91 85.09) (xy 41.91 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38c6f3f-1687-445a-8a5c-aad7eb1daac7")
 	)
 	(wire
 		(pts
@@ -2198,16 +2352,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 67.31) (xy 49.53 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db0d5e59-59a9-495b-9f1e-e4e689638797")
-	)
-	(wire
-		(pts
 			(xy 148.59 96.52) (xy 161.29 96.52)
 		)
 		(stroke
@@ -2225,6 +2369,16 @@
 			(type default)
 		)
 		(uuid "dcf770bf-9287-4ccb-82de-e9d425a4f9b8")
+	)
+	(wire
+		(pts
+			(xy 41.91 67.31) (xy 49.53 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd25bcc4-65b0-41d5-9898-4d1d7b0ae72e")
 	)
 	(wire
 		(pts
@@ -2258,7 +2412,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 86.36) (xy 63.5 86.36)
+			(xy 34.29 86.36) (xy 41.91 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3099,6 +3253,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 41.91 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5089f035-ae65-4935-b499-2bc7752c8ea0")
+		(property "Reference" "R1"
+			(at 44.45 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "820"
+			(at 44.45 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 40.132 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "52e11714-e2c0-4660-a765-a02a89e9fce6")
+		)
+		(pin "1"
+			(uuid "00ca2aaf-81fc-49df-88ef-6f5d878c4620")
+		)
+		(instances
+			(project ""
+				(path "/d69956fb-1ece-4d71-a86e-9c0e03d8e4b0"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 110.49 100.33 0)
 		(unit 1)
@@ -3565,7 +3789,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819W S4"
+		(property "Value" "any SOD-123F diode"
 			(at 53.34 63.5 0)
 			(effects
 				(font
@@ -3582,7 +3806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2501131752_TDSEMIC-1N5819W-S4_C42441798.pdf"
+		(property "Datasheet" ""
 			(at 53.34 67.31 0)
 			(effects
 				(font
@@ -4177,7 +4401,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 41.91 78.74 270)
+		(at 41.91 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4186,15 +4410,6 @@
 		(fields_autoplaced yes)
 		(uuid "d5001b22-5b42-48f3-a04e-defe20ec8a70")
 		(property "Reference" "Z1"
-			(at 44.45 77.4699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20V"
 			(at 44.45 80.0099 90)
 			(effects
 				(font
@@ -4203,8 +4418,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "20V zener diode"
+			(at 44.45 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 41.91 78.74 0)
+			(at 41.91 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,8 +4436,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121632_DOWO-BZT52C20_C7544551.pdf"
-			(at 41.91 78.74 0)
+		(property "Datasheet" ""
+			(at 41.91 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4222,7 +4446,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 41.91 78.74 0)
+			(at 41.91 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4231,7 +4455,7 @@
 			)
 		)
 		(property "LCSC Part #" "C7544551"
-			(at 41.91 78.74 90)
+			(at 41.91 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +4881,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "3.3V"
 			(at 87.63 63.5 0)
 			(effects
 				(font
